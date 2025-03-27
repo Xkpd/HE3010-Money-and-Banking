@@ -20,9 +20,9 @@ solution:
 
 
 
-	•	DIFF-GMM:
+•	DIFF-GMM:
 Uses lagged levels as instruments for the differenced equation. It can suffer from weak instrument issues when your variables are highly persistent.
 
 
-	•	SYS-GMM:
+•	SYS-GMM:
 Combines the differenced equation with the level equation, using lagged differences as instruments for the levels. This generally improves efficiency, especially in short panels with many units and few time periods.
