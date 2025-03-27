@@ -1,4 +1,4 @@
-Endogeneity (Instrumental Variable)
+## Endogeneity (Instrumental Variable)  
 there is correlation between X and error term (unobservable variable e.g. motivation) --> error term affects both X and Y at the same time
 violation of E(Error term|X) = 0
 
@@ -7,7 +7,7 @@ solution:
 
 
 
-Heteroskedasity
+##cHeteroskedasticity  
 variance of error term is not constant
 - unreliable variance of X and Y
 - CI unreliable
@@ -20,9 +20,9 @@ solution:
 
 
 
-•	DIFF-GMM:
+## DIFF-GMM:
 Uses lagged levels as instruments for the differenced equation. It can suffer from weak instrument issues when your variables are highly persistent.
 
 
-•	SYS-GMM:
+## SYS-GMM:
 Combines the differenced equation with the level equation, using lagged differences as instruments for the levels. This generally improves efficiency, especially in short panels with many units and few time periods.
